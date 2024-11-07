@@ -1,0 +1,183 @@
+# The proguard configuration file for the following section is C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\proguard-gradle.txt
+######################################################################
+## Skip down to the 'User Section'
+## Messing with any items in the 'System Section' will void the warranty
+######################################################################
+
+
+######################################################################
+######################################################################
+## System Section
+######################################################################
+######################################################################
+
+
+-dontskipnonpubliclibraryclasses
+-dontshrink
+-dontoptimize
+
+############### ACRA specifics
+# we need line numbers in our stack traces otherwise they are pretty useless
+-renamesourcefileattribute SourceFile
+-keepattributes SourceFile,LineNumberTable
+
+-applymapping <atak.proguard.mapping>
+
+-keepattributes *Annotation*
+-keepattributes Signature, InnerClasses
+
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+
+
+# Preserve all native method names and the names of their classes.
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclassmembers class * {
+    @org.simpleframework.xml.* *;
+}
+
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+
+
+-keep class * implements gov.tak.api.plugin.IPlugin {
+}
+-keep class * extends com.atak.plugins.impl.AbstractPluginTool {
+}
+
+# overcome an existing bug in the gradle subsystem (3.5.x)
+-keep class module-info
+
+-keep,allowobfuscation @interface gov.tak.api.annotation.DontObfuscate
+
+# Do not strip any method/class that is annotated with @DontObfuscate
+-keep @gov.tak.api.annotation.DontObfuscate class * {*;}
+-keepclassmembers class * {
+    @gov.tak.api.annotation.DontObfuscate *;
+}
+
+
+######################################################################
+## Messing with any settings above this line will void the Warranty
+######################################################################
+
+
+
+######################################################################
+######################################################################
+## User Section
+######################################################################
+######################################################################
+
+
+######################################################################
+## Please change PluginTemplate to accurately reflect the name of your 
+## plugin.  This will help get bug reports to your development group.
+######################################################################
+
+-repackageclasses atakplugin.helloworld
+
+
+######################################################################
+## below you can add any rules specific to your plugin limited to 
+## dontwarn and keep directives
+######################################################################
+
+-dontwarn androidx.viewpager.widget.ViewPager$SavedState
+
+
+# End of content from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\proguard-gradle.txt
+# The proguard configuration file for the following section is C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\intermediates\aapt_proguard_file\civRelease\aapt_rules.txt
+-keep class com.atakmap.android.helloworld.CameraActivity { <init>(); }
+-keep class com.atakmap.android.helloworld.PluginPermissionActivity { <init>(); }
+-keep class com.atakmap.android.helloworld.notification.NotificationService { <init>(); }
+-keep class com.atakmap.android.helloworld.service.ExampleAidlService { <init>(); }
+-keep class com.atakmap.android.helloworld.speechtotext.SpeechToActivity { <init>(); }
+-keep class com.atakmap.app.component { <init>(); }
+-keep class com.javacodegeeks.android.contentprovidertest.BirthProvider { <init>(); }
+-keep class androidx.viewpager.widget.ViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.atakmap.android.gui.PanCheckBoxPreference { <init>(...); }
+
+-keep class com.atakmap.android.gui.PanEditTextPreference { <init>(...); }
+
+-keep class com.atakmap.android.gui.PanListPreference { <init>(...); }
+
+-keep class com.atakmap.android.gui.PanPreference { <init>(...); }
+
+-keep class com.atakmap.android.gui.PluginSpinner { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.atakmap.android.helloworld.recyclerview.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.atakmap.android.network.ui.CredentialsPreference { <init>(...); }
+
+
+# End of content from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\intermediates\aapt_proguard_file\civRelease\aapt_rules.txt
+# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\136e159be0227a0561d61874e1cc2aab\transformed\recyclerview-1.1.0\proguard.txt
+# Copyright (C) 2015 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# When layoutManager xml attribute is used, RecyclerView inflates
+#LayoutManagers' constructors using reflection.
+-keep public class * extends androidx.recyclerview.widget.RecyclerView$LayoutManager {
+    public <init>(android.content.Context, android.util.AttributeSet, int, int);
+    public <init>();
+}
+
+-keepclassmembers class androidx.recyclerview.widget.RecyclerView {
+    public void suppressLayout(boolean);
+    public boolean isLayoutSuppressed();
+}
+# End of content from C:\Users\Admin\.gradle\caches\transforms-3\136e159be0227a0561d61874e1cc2aab\transformed\recyclerview-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\72942b52ed5d36b92de8febe2a25bb24\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+-keep,allowobfuscation @interface androidx.annotation.Keep
+-keep @androidx.annotation.Keep class * {*;}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <init>(...);
+}
+
+# End of content from C:\Users\Admin\.gradle\caches\transforms-3\72942b52ed5d36b92de8febe2a25bb24\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# The proguard configuration file for the following section is <unknown>
+-ignorewarnings
+# End of content from <unknown>

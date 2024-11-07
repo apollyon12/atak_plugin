@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.atakmap.android.helloworld.plugin"
+4    android:versionCode="1"
+5    android:versionName="1.0 () - [5.2.0]" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+10
+11    <!-- allows for the app to run the notification service -->
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:6:5-76
+12-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:6:22-74
+13
+14    <!-- Android 13 required for posting notifications -->
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:9:5-77
+15-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:9:22-74
+16
+17    <!-- Allow for the app to run independent of battery restrictions -->
+18    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+18-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:12:5-94
+18-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:12:22-92
+19
+20    <application
+20-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:15:5-101:19
+21        android:allowBackup="false"
+21-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:16:9-36
+22        android:description="@string/app_desc"
+22-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:19:9-47
+23        android:icon="@drawable/ic_launcher"
+23-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:17:9-45
+24        android:label="@string/app_name"
+24-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:18:9-41
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:20:9-40
+26        <meta-data
+27            android:name="plugin-api"
+27-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:21:20-45
+28            android:value="com.atakmap.app@5.2.0.CIV" />
+28-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:21:46-79
+29        <meta-data
+29-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:22:9-78
+30            android:name="app_desc"
+30-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:22:20-43
+31            android:value="@string/app_desc" />
+31-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:22:44-76
+32
+33        <provider
+34            android:name="com.javacodegeeks.android.contentprovidertest.BirthProvider"
+34-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:26:19-93
+35            android:authorities="null.provider.Birthday"
+35-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:27:13-55
+36            android:exported="true" >
+36-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:28:13-36
+37        </provider>
+38
+39        <service
+39-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:31:9-39:19
+40            android:name="com.atakmap.android.helloworld.notification.NotificationService"
+40-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:32:13-91
+41            android:exported="true"
+41-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:34:13-36
+42            android:label="Plugin Notification Service" >
+42-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:33:13-56
+43            <intent-filter>
+43-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:36:13-38:29
+44                <action android:name="com.atakmap.android.helloworld.notification.NotificationService" />
+44-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:37:17-105
+44-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:37:25-103
+45            </intent-filter>
+46        </service>
+47        <service
+47-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:41:9-49:19
+48            android:name="com.atakmap.android.helloworld.service.ExampleAidlService"
+48-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:42:13-85
+49            android:exported="true"
+49-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:44:13-36
+50            android:label="Plugin Aidl Service" >
+50-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:43:13-48
+51            <intent-filter>
+51-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:46:13-48:29
+52                <action android:name="com.atakmap.android.helloworld.service.ExampleAidlService" />
+52-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:47:17-99
+52-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:47:25-97
+53            </intent-filter>
+54        </service>
+55
+56        <activity
+56-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:51:9-56:20
+57            android:name="com.atakmap.android.helloworld.CameraActivity"
+57-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:52:13-73
+58            android:configChanges="orientation"
+58-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:55:13-48
+59            android:exported="true"
+59-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:54:13-36
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+60-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:53:13-83
+61        </activity>
+62
+63        <!--
+64        Commented out, functionality absorbed by SpeechToActivity
+65        <activity
+66            android:name="com.atakmap.android.helloworld.SpeechToTextActivity"
+67            android:theme="@style/AppTheme"
+68            android:exported="true"
+69            android:configChanges="orientation"
+70            android:launchMode="singleTop">
+71            <intent-filter>
+72                <action android:name="com.atakmap.android.helloworld.SpeechToTextActivity"/>
+73            </intent-filter>
+74        </activity>
+75        -->
+76        <activity
+76-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:70:9-79:20
+77            android:name="com.atakmap.android.helloworld.speechtotext.SpeechToActivity"
+77-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:71:13-88
+78            android:configChanges="orientation"
+78-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:74:13-48
+79            android:exported="true"
+79-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:73:13-36
+80            android:launchMode="singleTop"
+80-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:75:13-43
+81            android:theme="@style/Theme.Transparent" >
+81-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:72:13-53
+82            <intent-filter>
+82-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:76:13-78:29
+83                <action android:name="com.atakmap.android.helloworld.SpeechToActivity" />
+83-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:77:17-89
+83-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:77:25-87
+84            </intent-filter>
+85        </activity>
+86
+87        <!-- allow for plugin discovery -->
+88        <activity
+88-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:82:8-88:19
+89            android:name="com.atakmap.app.component"
+89-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:82:18-58
+90            android:exported="true" >
+90-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:83:12-35
+91            <intent-filter android:label="@string/app_name" >
+91-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:85:12-87:28
+91-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:85:27-59
+92                <action android:name="com.atakmap.app.component" />
+92-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:86:15-66
+92-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:86:23-63
+93            </intent-filter>
+94        </activity>
+95        <activity
+95-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:91:9-99:20
+96            android:name="com.atakmap.android.helloworld.PluginPermissionActivity"
+96-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:91:19-89
+97            android:exported="true"
+97-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:92:13-36
+98            android:launchMode="singleInstance"
+98-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:93:13-48
+99            android:screenOrientation="behind"
+99-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:94:13-47
+100            android:theme="@style/PermissionTheme" >
+100-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:95:13-51
+101            <intent-filter>
+101-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:96:13-98:29
+102                <action android:name="com.atakmap.android.sip.SipPermissionsActivity" />
+102-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:97:17-89
+102-->C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:97:25-86
+103            </intent-filter>
+104        </activity>
+105    </application>
+106
+107</manifest>

@@ -1,0 +1,4 @@
+#Mon Oct 21 21:42:10 PDT 2024
+base.0=C\:\\Users\\Admin\\Desktop\\ATAK\\atak\\samples\\helloworld\\app\\build\\intermediates\\dex\\civRelease\\minifyCivReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

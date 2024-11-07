@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "com.atakmap.android.helloworld.plugin.gov",
+  "variantName": "govDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0 () - [5.2.0]",
+      "outputFile": "resources-govDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

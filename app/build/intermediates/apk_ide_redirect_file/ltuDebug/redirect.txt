@@ -1,0 +1,2 @@
+#- File Locator -
+listingFile=../../../outputs/apk/ltu/debug/output-metadata.json

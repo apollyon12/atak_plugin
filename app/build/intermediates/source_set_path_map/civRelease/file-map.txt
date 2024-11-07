@@ -1,0 +1,11 @@
+com.atakmap.android.helloworld.plugin.app-recyclerview-1.1.0-0 C:\Users\Admin\.gradle\caches\transforms-3\136e159be0227a0561d61874e1cc2aab\transformed\recyclerview-1.1.0\res
+com.atakmap.android.helloworld.plugin.app-release-1 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build-types\release\res
+com.atakmap.android.helloworld.plugin.app-civ-2 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\generated\res\pngs\civ\release
+com.atakmap.android.helloworld.plugin.app-civ-3 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\generated\res\resValues\civ\release
+com.atakmap.android.helloworld.plugin.app-civ-4 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\generated\res\rs\civ\release
+com.atakmap.android.helloworld.plugin.app-mergeCivReleaseResources-5 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\intermediates\incremental\civRelease\mergeCivReleaseResources\merged.dir
+com.atakmap.android.helloworld.plugin.app-mergeCivReleaseResources-6 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\intermediates\incremental\civRelease\mergeCivReleaseResources\stripped.dir
+com.atakmap.android.helloworld.plugin.app-merged_res-7 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\intermediates\merged_res\civRelease
+com.atakmap.android.helloworld.plugin.app-civ-8 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\civ\res
+com.atakmap.android.helloworld.plugin.app-civRelease-9 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\civRelease\res
+com.atakmap.android.helloworld.plugin.app-main-10 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\res

@@ -1,0 +1,11 @@
+com.atakmap.android.helloworld.plugin.app-recyclerview-1.1.0-0 C:\Users\Admin\.gradle\caches\transforms-3\136e159be0227a0561d61874e1cc2aab\transformed\recyclerview-1.1.0\res
+com.atakmap.android.helloworld.plugin.app-debug-1 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build-types\debug\res
+com.atakmap.android.helloworld.plugin.app-est-2 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\generated\res\pngs\est\debug
+com.atakmap.android.helloworld.plugin.app-est-3 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\generated\res\resValues\est\debug
+com.atakmap.android.helloworld.plugin.app-est-4 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\generated\res\rs\est\debug
+com.atakmap.android.helloworld.plugin.app-mergeEstDebugResources-5 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\intermediates\incremental\estDebug\mergeEstDebugResources\merged.dir
+com.atakmap.android.helloworld.plugin.app-mergeEstDebugResources-6 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\intermediates\incremental\estDebug\mergeEstDebugResources\stripped.dir
+com.atakmap.android.helloworld.plugin.app-merged_res-7 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\build\intermediates\merged_res\estDebug
+com.atakmap.android.helloworld.plugin.app-est-8 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\est\res
+com.atakmap.android.helloworld.plugin.app-estDebug-9 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\estDebug\res
+com.atakmap.android.helloworld.plugin.app-main-10 C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\res

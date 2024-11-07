@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.atakmap.android.helloworld.plugin.nzl"
+    android:versionCode="1"
+    android:versionName="1.0 () - [5.2.0]" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="33" />
+
+    <!-- allows for the app to run the notification service -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <!-- Android 13 required for posting notifications -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Allow for the app to run independent of battery restrictions -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <application
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:description="@string/app_desc"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="plugin-api"
+            android:value="com.atakmap.app@5.2.0.NZL" />
+        <meta-data
+            android:name="app_desc"
+            android:value="@string/app_desc" />
+
+        <provider
+            android:name="com.javacodegeeks.android.contentprovidertest.BirthProvider"
+            android:authorities="null.provider.Birthday"
+            android:exported="true" >
+        </provider>
+
+        <service
+            android:name="com.atakmap.android.helloworld.notification.NotificationService"
+            android:exported="true"
+            android:label="Plugin Notification Service" >
+            <intent-filter>
+                <action android:name="com.atakmap.android.helloworld.notification.NotificationService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.atakmap.android.helloworld.service.ExampleAidlService"
+            android:exported="true"
+            android:label="Plugin Aidl Service" >
+            <intent-filter>
+                <action android:name="com.atakmap.android.helloworld.service.ExampleAidlService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.atakmap.android.helloworld.CameraActivity"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <!--
+        Commented out, functionality absorbed by SpeechToActivity
+        <activity
+            android:name="com.atakmap.android.helloworld.SpeechToTextActivity"
+            android:theme="@style/AppTheme"
+            android:exported="true"
+            android:configChanges="orientation"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.atakmap.android.helloworld.SpeechToTextActivity"/>
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name="com.atakmap.android.helloworld.speechtotext.SpeechToActivity"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <action android:name="com.atakmap.android.helloworld.SpeechToActivity" />
+            </intent-filter>
+        </activity>
+
+        <!-- allow for plugin discovery -->
+        <activity
+            android:name="com.atakmap.app.component"
+            android:exported="true" >
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="com.atakmap.app.component" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.atakmap.android.helloworld.PluginPermissionActivity"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="behind"
+            android:theme="@style/PermissionTheme" >
+            <intent-filter>
+                <action android:name="com.atakmap.android.sip.SipPermissionsActivity" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

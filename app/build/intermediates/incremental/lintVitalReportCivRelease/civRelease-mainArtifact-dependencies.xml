@@ -1,0 +1,23 @@
+<dependencies>
+  <compile
+      roots="__local_aars__:C:\Users\Admin\Desktop\ATAK\atak\main.jar:unspecified@jar,androidx.recyclerview:recyclerview:1.1.0@aar,androidx.annotation:annotation:1.1.0@jar">
+    <dependency
+        name="__local_aars__:C:\Users\Admin\Desktop\ATAK\atak\main.jar:unspecified@jar"
+        simpleName="__local_aars__:C:\Users\Admin\Desktop\ATAK\atak\main.jar"/>
+    <dependency
+        name="androidx.recyclerview:recyclerview:1.1.0@aar"
+        simpleName="androidx.recyclerview:recyclerview"/>
+    <dependency
+        name="androidx.annotation:annotation:1.1.0@jar"
+        simpleName="androidx.annotation:annotation"/>
+  </compile>
+  <package
+      roots="androidx.recyclerview:recyclerview:1.1.0@aar,androidx.annotation:annotation:1.1.0@jar">
+    <dependency
+        name="androidx.recyclerview:recyclerview:1.1.0@aar"
+        simpleName="androidx.recyclerview:recyclerview"/>
+    <dependency
+        name="androidx.annotation:annotation:1.1.0@jar"
+        simpleName="androidx.annotation:annotation"/>
+  </package>
+</dependencies>

@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.atakmap.android.helloworld.plugin.hun",
+  "variantName": "hunDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0 () - [5.2.0]",
+      "outputFile": "ATAK-Plugin-helloworld-1.0--5.2.0-hun-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}

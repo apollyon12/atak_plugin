@@ -1,0 +1,24 @@
+<libraries>
+  <library
+      name="__local_aars__:C:\Users\Admin\Desktop\ATAK\atak\main.jar:unspecified@jar"
+      jars="C:\Users\Admin\Desktop\ATAK\atak\main.jar"
+      resolved="__local_aars__:C:\Users\Admin\Desktop\ATAK\atak\main.jar:unspecified"
+      provided="true"/>
+  <library
+      name="androidx.recyclerview:recyclerview:1.1.0@aar"
+      jars="C:\Users\Admin\.gradle\caches\transforms-3\136e159be0227a0561d61874e1cc2aab\transformed\recyclerview-1.1.0\jars\classes.jar"
+      resolved="androidx.recyclerview:recyclerview:1.1.0"
+      folder="C:\Users\Admin\.gradle\caches\transforms-3\136e159be0227a0561d61874e1cc2aab\transformed\recyclerview-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.annotation:annotation:1.1.0@jar"
+      jars="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\androidx.annotation\annotation\1.1.0\e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8\annotation-1.1.0.jar"
+      resolved="androidx.annotation:annotation:1.1.0"/>
+</libraries>

@@ -1,0 +1,178 @@
+-- Merging decision tree log ---
+meta-data#plugin-api
+INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:21:9-81
+	android:value
+		INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:21:46-79
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:21:20-45
+provider#com.javacodegeeks.android.contentprovidertest.BirthProvider
+INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:26:9-29:20
+	android:authorities
+		INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:27:13-55
+	android:exported
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:26:19-93
+manifest
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:1:1-103:12
+INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:1:1-103:12
+INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:1:1-103:12
+INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:1:1-103:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\136e159be0227a0561d61874e1cc2aab\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:1:1-103:12
+INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:1:1-103:12
+INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:1:1-103:12
+	package
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:3:5-52
+		INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:1:1-103:12
+		INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:1:1-103:12
+		INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:6:22-74
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:9:22-74
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:12:5-94
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:12:22-92
+application
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:15:5-101:19
+	android:label
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:18:9-41
+	android:icon
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:17:9-45
+	android:allowBackup
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:16:9-36
+	android:description
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:19:9-47
+	android:theme
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:20:9-40
+meta-data#app_desc
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:22:9-78
+	android:value
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:22:44-76
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:22:20-43
+service#com.atakmap.android.helloworld.notification.NotificationService
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:31:9-39:19
+	android:label
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:33:13-56
+	android:exported
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:32:13-91
+intent-filter#action:name:com.atakmap.android.helloworld.notification.NotificationService
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:36:13-38:29
+action#com.atakmap.android.helloworld.notification.NotificationService
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:37:17-105
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:37:25-103
+service#com.atakmap.android.helloworld.service.ExampleAidlService
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:41:9-49:19
+	android:label
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:43:13-48
+	android:exported
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:44:13-36
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:42:13-85
+intent-filter#action:name:com.atakmap.android.helloworld.service.ExampleAidlService
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:46:13-48:29
+action#com.atakmap.android.helloworld.service.ExampleAidlService
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:47:17-99
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:47:25-97
+activity#com.atakmap.android.helloworld.CameraActivity
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:51:9-56:20
+	android:exported
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:54:13-36
+	android:configChanges
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:55:13-48
+	android:theme
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:53:13-83
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:52:13-73
+activity#com.atakmap.android.helloworld.speechtotext.SpeechToActivity
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:70:9-79:20
+	android:launchMode
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:75:13-43
+	android:exported
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:73:13-36
+	android:configChanges
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:74:13-48
+	android:theme
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:72:13-53
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:71:13-88
+intent-filter#action:name:com.atakmap.android.helloworld.SpeechToActivity
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:76:13-78:29
+action#com.atakmap.android.helloworld.SpeechToActivity
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:77:17-89
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:77:25-87
+activity#com.atakmap.app.component
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:82:8-88:19
+	android:exported
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:83:12-35
+	tools:ignore
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:84:12-39
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:82:18-58
+intent-filter#action:name:com.atakmap.app.component
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:85:12-87:28
+	android:label
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:85:27-59
+action#com.atakmap.app.component
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:86:15-66
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:86:23-63
+activity#com.atakmap.android.helloworld.PluginPermissionActivity
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:91:9-99:20
+	android:screenOrientation
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:94:13-47
+	android:launchMode
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:93:13-48
+	android:exported
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:92:13-36
+	android:theme
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:95:13-51
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:91:19-89
+intent-filter#action:name:com.atakmap.android.sip.SipPermissionsActivity
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:96:13-98:29
+action#com.atakmap.android.sip.SipPermissionsActivity
+ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:97:17-89
+	android:name
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml:97:25-86
+uses-sdk
+INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\136e159be0227a0561d61874e1cc2aab\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\136e159be0227a0561d61874e1cc2aab\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Desktop\ATAK\atak\samples\helloworld\app\src\main\AndroidManifest.xml
